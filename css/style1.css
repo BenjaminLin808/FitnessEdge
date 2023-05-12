@@ -1,0 +1,636 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+}
+/*  header section */
+
+.logo {
+  font-family: "Quicksand", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  width: 20%;
+  color: #00b2ff;
+  text-shadow: 2px 2px gray;
+  float: left;
+}
+.logo img {
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+nav {
+  width: 60%;
+  text-align: center;
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 4em 2em;
+  font-weight: bold;
+  font-size: 20px;
+  color: #00b2ff;
+  text-shadow: 2px 2px gray;
+}
+.banner .active {
+  color: #ff4f5a;
+}
+/*  header section */
+
+.clearfix {
+  clear: both;
+}
+
+/* banner section */
+
+.banner {
+  background-image: url(../images/naturalView1.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  border: 1px solid #007cb1;
+}
+
+.banner-text {
+  padding-top: 100px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  color: black;
+  line-height: 200%;
+  font-size: 20px;
+}
+.banner h1 {
+  margin: 0;
+  font-size: 45px;
+}
+.banner p {
+  font-size: 20px;
+  padding: 100px 0;
+}
+.btn {
+  text-decoration: none;
+  color: #007cb1;
+  border: 1px solid #00b2ff;
+  padding: 4px 10px;
+  border-radius: 30px;
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+.btn:hover {
+  color: #ff4f5a;
+  border: 1px solid #ff4f5a;
+  font-weight: bold;
+}
+.top {
+  width: 150px;
+  background-color: #fff;
+  color: #33bffc;
+  bottom: 10px;
+  right: 30px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-weight: 600;
+  position: fixed;
+}
+.slider-images {
+  width: 100%;
+  height: 100%;
+}
+
+/* main section */
+main {
+  display: block;
+  font-size: 20px;
+}
+.main-one {
+  padding: 80px 220px;
+  border-bottom: 5px solid #33bffc;
+}
+.fontsize {
+  padding: 60px;
+}
+.btn1 {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  transition: 0.5s;
+  color: #fff;
+  background-color: #33bffc;
+}
+.btn1:hover {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  transition: 0.5s;
+  color: #fff;
+  background-color: #ff4f5a;
+}
+.content-left {
+  width: 40%;
+  float: left;
+}
+.img-right {
+  width: 40%;
+  float: right;
+}
+
+.img-right img {
+  width: 100%;
+}
+
+.img-left {
+  width: 40%;
+  float: left;
+}
+
+.content-right {
+  width: 40%;
+  float: right;
+}
+
+.img-left img {
+  width: 100%;
+}
+
+.main-two {
+  width: 80%;
+  margin: 50px auto;
+}
+.box {
+  width: 33%;
+  text-align: center;
+  padding: 10px;
+  float: left;
+}
+.box img {
+  width: 40%;
+}
+.box p {
+  padding: 20px;
+}
+/* footer */
+footer {
+  text-align: center;
+  padding: 80px;
+  background-color: #005e86;
+  color: #f0f0f0;
+  border-top: 5px solid #33bffc;
+}
+footer a img {
+  width: 30px;
+}
+
+/* contact page */
+form {
+  text-align: center;
+  width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
+}
+input,
+textarea {
+  width: 500px;
+  margin: 15px auto;
+  border: 1px solid #ccc;
+  border-radius: 1.6em;
+  padding: 0.8em 1em;
+  outline: none;
+}
+input[type="text"] {
+  width: 200px;
+}
+input[type="email"] {
+  width: 200px;
+}
+input[type="submit"] {
+  color: #007cb1;
+  border: 1px solid #007cb1;
+  transition: 0.3s;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  color: #ff4f5a;
+  background-color: #fff;
+  border: 1px solid #ff4f5a;
+}
+.content-left1 {
+  width: 50%;
+  float: left;
+}
+.content-right1 {
+  width: 50%;
+  float: right;
+}
+.contacth2 {
+  color: #005e86;
+  text-align: center;
+}
+
+/* diet page */
+video {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  border: 1px solid #007cb1;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin: auto;
+}
+.column img {
+  width: 100%;
+  margin: 5px;
+}
+
+/* exercise page */
+.anaerobic {
+  text-align: center;
+}
+.anaerobic button {
+  position: relative;
+  text-transform: uppercase;
+  background: #00b2ff;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+}
+.btn2 {
+  text-decoration: none;
+  color: #00b2ff;
+  border: 1px solid #00b2ff;
+  padding: 4px 20px;
+  border-radius: 30px;
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.popup .popuptext {
+  display: none;
+  visibility: hidden;
+}
+.popup video {
+  width: 700px;
+}
+
+.popup .show {
+  display: block;
+  visibility: visible;
+  max-height: 400px;
+}
+table {
+  margin: 40px auto;
+  background-color: #fff;
+  box-shadow: 0 10px 60px rgba(0, 0, 0.6);
+}
+table input[type="text"] {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 0;
+}
+caption {
+  background-image: url(../images/naturalView3.jpg);
+  height: 200px;
+  padding: 16px;
+  color: #fff;
+  font-size: 60px;
+  background-size: cover;
+  background-position: center;
+}
+
+/*  */
+label {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+  font-size: 3em;
+  cursor: pointer;
+}
+label,
+#nav {
+  display: none;
+}
+.bmiLabel {
+  font-size: 1em;
+  position: static;
+  display: inline;
+}
+
+@media (max-width: 992px) {
+  /* body{
+        background-color: lightblue;
+    } */
+  .label {
+    display: block;
+  }
+  nav {
+    /* display: none; */
+    max-height: 0;
+    overflow: hidden;
+  }
+  #nav:checked ~ nav {
+    /* display: block; */
+    max-height: 1000px;
+  }
+  .logo {
+    float: none;
+  }
+  nav {
+    width: 100%;
+    text-align: center;
+    float: none;
+    background-color: #00b2ff;
+    transition: 0.3s;
+  }
+  nav ul li a,
+  nav a:visited,
+  nav a:link {
+    color: #fff;
+  }
+  .banner-text {
+    padding-top: 0;
+    font-size: 16px;
+  }
+  .banner h1 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 100%;
+  }
+  .content-left,
+  .img-left,
+  .content-right,
+  .img-right {
+    float: none;
+    width: 100%;
+  }
+  nav ul li:hover ul {
+    display: none;
+  }
+  .content-left1 {
+    float: none;
+  }
+  .content-right1 {
+    float: none;
+  }
+  .box {
+    width: 80%;
+    float: none;
+    margin: auto;
+  }
+  .main-one {
+    padding: 80px 20px;
+  }
+}
+@media (max-width: 780px) {
+  .label {
+    display: block;
+  }
+  nav {
+    /* display: none; */
+    max-height: 0;
+    overflow: hidden;
+  }
+  nav ul li a {
+    display: block;
+    padding: 1em 2em;
+  }
+  #nav:checked ~ nav {
+    /* display: block; */
+    max-height: 1000px;
+  }
+  .anaerobic video {
+    width: 300px;
+  }
+  .img-right {
+    float: none;
+    width: 100%;
+  }
+  form {
+    text-align: center;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 1.5em;
+  }
+  form h1 {
+    line-height: 100%;
+  }
+  input,
+  textarea {
+    width: 300px;
+    margin: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 1.6em;
+    padding: 0.8em 1em;
+    outline: none;
+  }
+  input[type="text"] {
+    width: 300px;
+    margin: 15px 20px;
+  }
+  input[type="email"] {
+    width: 300px;
+    margin: 15px 20px;
+  }
+  input[type="submit"] {
+    color: #007cb1;
+    border: 1px solid #007cb1;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+  }
+  .content-left1 {
+    float: none;
+  }
+  .content-right1 {
+    float: none;
+  }
+  .main-one {
+    padding: 80px 20px;
+  }
+}
+
+.BMI {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.BMI div {
+  margin: 10px;
+}
+
+.BMI label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.BMI input,
+.BMI select {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bmibutton {
+  margin-top: 40px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 20px;
+  height: 60px;
+  width: 200px;
+}
+
+#bmicontainer {
+  display: flex;
+}
+#left-side {
+  flex-basis: 50%;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#left-side img {
+  max-width: 120%;
+}
+#right-side {
+  flex-basis: 50%;
+  padding: 1em;
+}
+
+.bmiimg {
+  width: 400px;
+  box-shadow: 10px 5px 5px black;
+}
+
+/* .bmiInput {
+  margin-right: 100px;
+} */
+
+.image-container {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  width: 200px;
+}
+
+.image-container img {
+  max-width: 100%;
+  border: 0.25rem solid blanchedalmond;
+  border-radius: 0.2rem;
+}
+
+.image-container h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.image-container p {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%; /* Full width */
+  height: 40%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.readmore {
+  margin-top: 40px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 14px;
+  height: 40px;
+}
+
+.message {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f7f7f7;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+}
+
+.message article {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.message section {
+  font-weight: normal;
+  font-style: italic;
+  color: #666;
+}
